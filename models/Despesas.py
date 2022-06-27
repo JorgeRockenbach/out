@@ -1,8 +1,6 @@
-from wsgiref.validate import validator
-
-
 class Despesas:
-    def __init__(self, valor, categoria, descricao):
+    def __init__(self, Id, valor, categoria, descricao):
+        self.id = Id
         self.valor = valor
         self.categoria = categoria
         self.descricao = descricao 
