@@ -5,7 +5,7 @@ import pandas as pd;
 
 def Lista():
     colms = st.columns((1,2,2,3,2,2))
-    campos = ['Id','Valor','Categoria','Descricao', 'Excluir', 'Alterar']
+    campos = ['Id','Valor','Categoria','Descrição', 'Excluir', 'Alterar']
     for col, campo_valor in zip(colms, campos):
         col.write(campo_valor)
 
